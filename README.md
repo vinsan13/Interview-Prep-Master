@@ -64,15 +64,6 @@ A user can contribute as well .
 
 A user added question or experience needs admin approval to be displayed in the website . If a admin adds it gets saved and displayed by default.
 
-## Admin Panel
-
-* Authenticated admin panel 
-
-![](/website/8_edited.jpg)
-
-* Admins can add , delete modify models data and also approve questions or experiences added by users .
-
-![](/website/9_edited.jpg)
 
 
 
