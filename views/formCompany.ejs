@@ -1,10 +1,37 @@
-<html>
-    <body>
-        <form action="/addcompany" method="POST">
-            <input type="text" name="name"  placeholder="Name">
-            <input type="text" name="link" placeholder="Link">
-            <input type="text" name="image" placeholder="Image link">
-            <button type="submit"> ADD </button>
-        </form>
-    </body>
-</html>
+<%- include('partials/header'); -%>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <link rel="stylesheet" href="/style_question.css">
+    <div class="bg-modal1">
+        <div class="modal-content" style="height: 450px;">
+            <div class="close1" id="close1">
+                <a href="/"> + </a>
+            </div>
+            <form action="/addcompany" method="POST">
+                <h3>ADD COMPANY</h3><br>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                  
+
+                    <label for="link">Link to the company</label>
+                    <input type="text" name="link" required>
+                   
+
+                    <label for="image">Company profile image</label>
+                    <input type="text" name="image" required>
+
+                </div>
+                <br>
+                <div>
+                    <button type='submit' class=" btn btn-default btn-primary fa">
+                        <i class="fa fa-paper-plane"></i> Add </button>
+                </div>
+            </form>
+        </div>
+    </div>
+<%- include('partials/footer'); -%> 
